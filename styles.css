@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.box{
+    display: flex;
+}
+
+.search-grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar{
+    grid-area: 1/1/3/2;
+}
+
+.main{
+    display: flex;
+}
+
+.content-display{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
