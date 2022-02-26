@@ -9,11 +9,19 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 7fr;
-    grid-template-rows: 4fr 31fr;
+    grid-template-rows: 1fr 4fr;
 }
 
 .box{
     display: flex;
+}
+
+.navbar{
+    background-color: pink;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
 }
 
 .search-grid{
@@ -24,9 +32,11 @@
 .header-grid{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .sidebar{
+    background-color: aqua;
     grid-area: 1/1/3/2;
     display: grid;
     grid-template-rows: 1fr 4fr 2fr 4fr;
@@ -38,7 +48,17 @@
 } */
 
 .main{
+    background-color: yellow;
+    padding: 10px;
     display: flex;
+    gap: 2vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    gap: 5vh;
 }
 
 .content-display{
