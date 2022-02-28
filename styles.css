@@ -21,12 +21,17 @@
     height: 20vh;
     display: flex;
     flex-direction: column;
-    gap: 5vh;
+    /* gap: 5vh; */
 }
 
 .search-grid{
     display: flex;
     justify-content: space-between;
+}
+
+.search-logo{
+    height: 28px;
+    width: 28px;
 }
 
 .header-grid{
