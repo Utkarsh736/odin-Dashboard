@@ -9,6 +9,7 @@
     --clr-white: #f9fafc;
     --clr-grey: #d1d5db;
     --clr-blue: #38bdf8;
+    --clr-shade: #6b7280;
 }
 
 .container{
@@ -27,11 +28,13 @@
 }
 
 .navbar{
+    position: relative;
     background-color: var(--clr-white);
     padding: 2vw 2vw;
     display: flex;
     flex-direction: column;
     gap: 1vh;
+    box-shadow: 10px 10px 10px var(--clr-shade);
 }
 
 .search-grid{
