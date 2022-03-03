@@ -201,4 +201,9 @@ button{
 
 .trending-profile{
     display: flex;
+    column-gap: 1vw;
+}
+
+.trending-account{
+    font-weight: bold;
 }
