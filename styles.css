@@ -22,6 +22,8 @@
 
 .box{
     display: flex;
+    gap: 1vw;
+    margin: 2vh 0;
 }
 
 .navbar{
@@ -30,6 +32,7 @@
     display: flex;
     flex-direction: column;
     gap: 1vh;
+    /* position: fixed; */
 }
 
 .search-grid{
@@ -98,11 +101,13 @@ button{
 
 .sidebar{
     color: white;
+    padding: 2vh 2vw;
     background-color: var(--clr-blue);
     grid-area: 1/1/3/2;
     display: grid;
     grid-template-rows: 1fr 4fr 2fr 4fr;
     align-items: center;
+    /* position: fixed; */
 }
 
 /* .link{
@@ -114,6 +119,7 @@ button{
     padding: 4vh 2vw;
     display: flex;
     gap: 2vh;
+    overflow: auto;
 }
 
 .content{
@@ -132,6 +138,14 @@ button{
 
 .project{
     background-color: var(--clr-white);
+    height: 25vh;
+    width: 25vw;
+    display: flex;
+    align-items: flex-start;
+    padding: 2vh;
+}
+.project-header{
+    font-weight: bold;
 }
 
 .side-panel{
