@@ -140,12 +140,27 @@ button{
     background-color: var(--clr-white);
     height: 25vh;
     width: 25vw;
-    display: flex;
-    align-items: flex-start;
     padding: 2vh;
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2vh;
+}
+
 .project-header{
     font-weight: bold;
+}
+
+.project-footer{
+    align-self: flex-end;
+}
+
+.project-footer>img{
+    height: 4vh;
+    width: 2vw;
 }
 
 .side-panel{
