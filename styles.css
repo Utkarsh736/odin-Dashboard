@@ -126,12 +126,12 @@ button{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
+    gap: 25px;
 }
 
 .project{
     background-color: var(--clr-white);
-    height: 25vh;
+    height: 30vh;
     width: 25vw;
     padding: 2vh;
 }
@@ -157,17 +157,40 @@ button{
 }
 
 .side-panel{
+    margin-left: 3vw;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5vh;
+}
+
+.announcements, .trending{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.announcement-container, .trending-container{
+    background-color: var(--clr-white);
 }
 
 .announcement-container{
-    background-color: var(--clr-white);
+    height: 45vh;
+    width: 15vw;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
 }
 
 .trending-container{
-    background-color: var(--clr-white);
+    height: 35vh;
+    width: 15vw;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
 }
 
 .trending-profile{
